@@ -1,5 +1,13 @@
+import Main from "./Component/Main";
+import Navbar from "./Component/Navbar";
+
 function App() {
-  return <h1 className="font-bold">Arita</h1>;
+  return (
+    <>
+      <Navbar />
+      <Main />
+    </>
+  );
 }
 
 export default App;
